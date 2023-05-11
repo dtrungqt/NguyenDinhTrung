@@ -26,3 +26,14 @@
     width: 80vw;
   }
 }
+
+/* For desktop: */
+@media only screen and (min-width: 1000px) {
+  .group1-container {
+    width: 75vw;
+  }
+
+  .group1-container p {
+    width: 50vw;
+  }
+}

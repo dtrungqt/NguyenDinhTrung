@@ -46,14 +46,20 @@ li a:hover {
 }
 
 /* For desktop: */
-/* 
-@media only screen and (min-width: 768px) {
+
+/* @media only screen and (min-width: 1000px) {
+  .sidebar-container {
+    float: left;
+    width: 20%;
+    position: absolute;
+    left: 0%;
+    height: 100%;
+  }
+
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 15%;
-    position: fixed;
     height: 100%;
     overflow: auto;
   }

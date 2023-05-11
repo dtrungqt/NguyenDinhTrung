@@ -34,6 +34,15 @@
 @media only screen and (min-width: 600px) {
   .group2-container {
     width: 85vw;
-    margin: 40px auto 0;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 1000px) {
+  .group2-container p {
+    text-align: left;
+  }
+  .group2-container {
+    margin: 5rem 1rem;
   }
 }

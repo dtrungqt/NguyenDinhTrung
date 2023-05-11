@@ -11,9 +11,16 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
   /* For desktop: */
   .content-container img {
     width: 20vw;
+  }
+
+  .display-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 75rem;
+    margin: auto;
   }
 }
