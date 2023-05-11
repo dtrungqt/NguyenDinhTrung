@@ -14,10 +14,10 @@
 
 /* For desktop: */
 @media only screen and (min-width: 1000px) {
-  /* .App {
-    overflow: auto;
-    clear: both;
-  } */
+  .App {
+    display: flex;
+    align-items: stretch;
+  }
   /* .App::after {
     content: "";
 

@@ -51,7 +51,7 @@ li a:hover {
   .sidebar-container {
     width: 20%;
     float: left;
-    height: 123vh;
+    background-color: #191718;
   }
 
   ul {
