@@ -51,14 +51,14 @@ li a:hover {
   .sidebar-container {
     width: 20%;
     float: left;
-    height: 100vh;
+    height: 123vh;
   }
 
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     overflow: auto;
   }
 
