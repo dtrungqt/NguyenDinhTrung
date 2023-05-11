@@ -1,4 +1,19 @@
+/* For mobile phones: */
 .content-container img {
   margin: 20px 0 30px 0;
   width: 70vw;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .content-container img {
+    width: 40vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .content-container img {
+    width: 20vw;
+  }
 }

@@ -1,5 +1,5 @@
 .group2-container {
-  width: 90vw;
+  width: 95vw;
   margin: 40px auto 0;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .group2-container p {
-  text-align: left;
+  text-align: justify;
 }
 
 .group2-container .clearfix {
@@ -28,4 +28,12 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+  .group2-container {
+    width: 85vw;
+    margin: 40px auto 0;
+  }
 }

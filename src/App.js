@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
+      {/* <div className="body-content"> */}
       <Content />
       <Footer />
+      {/* </div> */}
     </div>
   );
 }
