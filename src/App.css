@@ -9,11 +9,18 @@
 }
 .App {
   text-align: center;
+  height: 100%;
 }
 
 /* For desktop: */
 @media only screen and (min-width: 1000px) {
-  .App {
-    position: relative;
-  }
+  /* .App {
+    overflow: auto;
+    clear: both;
+  } */
+  /* .App::after {
+    content: "";
+
+    display: table;
+  } */
 }
