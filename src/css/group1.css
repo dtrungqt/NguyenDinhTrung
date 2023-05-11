@@ -1,0 +1,16 @@
+.group1-container {
+  background-color: #efefef;
+  width: 95vw;
+  margin: auto;
+}
+
+.group1-container h3 {
+  padding: 38px 0 18px 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+.group1-container p {
+  width: 90vw;
+  margin: auto;
+  padding-bottom: 38px;
+}

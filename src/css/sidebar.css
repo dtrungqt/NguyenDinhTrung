@@ -1,0 +1,32 @@
+/* CSS Sidebar  */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 0.3rem 0;
+  color: #aaaaaa;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #5c5c5c;
+}
+
+li a.active {
+  color: white;
+  font-weight: 700;
+}
+
+li a:hover {
+  background-color: #5c5c5c;
+  color: white;
+  font-weight: 700;
+}
